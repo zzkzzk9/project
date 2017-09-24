@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<style>
+			.uesr-img img{width: 40px;height: 40px;display: inline-block;margin-top: 5px;}
+			.border{border-top: none;}
+		</style>
+	</head>
+	<body>
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">OA办公系统</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;管理首页 <span class="sr-only">(current)</span></a></li>
+			        <li class="active"><a href="demo.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+			        <li><a href="#">内容管理</a></li>
+			        <li><a href="#">标签管理</a></li>
+			        <li><a href="#">我的邮箱</a></li>
+			     
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right">
+			        <li>
+			        	<div class="uesr-img">
+			        		<a href="#"><img src="images/touxiang.jpg" class="img-responsive"/></a>
+			        	</div>
+			        </li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">管理员 <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a></li>
+			            <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a></li>
+			            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a></li>
+			            <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a></li>
+			            <li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a></li>
+			            <li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;退出</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="list-group">
+							<a href="demo.html" class="list-group-item">用户管理</a>
+							<a href="user-search.html" class="list-group-item active">用户搜索</a>
+							<a href="#" class="list-group-item" data-toggle="modal" data-target="#myModal">添加用户</a>
+						</div>
+					</div>
+					<div class="col-md-10">
+						<h4>用户搜索</h4>
+						<ul class="nav nav-tabs">
+						  <li><a href="demo.html">用户管理</a></li>
+						  <li class="active"><a href="user-search.html">用户搜索</a></li>
+						  <li><a href="#" data-toggle="modal" data-target="#myModal">添加用户</a></li>
+						</ul>
+						<div class="panel panel-default border">
+						  <div class="panel-body">
+						    <form role="form">
+							<div class="alert alert-info"><span style="font-weight: bold;">技巧提示：</span>支持模糊搜索和匹配搜索，匹配搜索使用*代替</div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">用户名</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入用户名">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">UID</label>
+						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入用户UID">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputPassword1">选择用户组</label>
+						   <select class="form-control">
+							  <option>限制会员</option>
+							  <option>2</option>
+							  <option>3</option>
+							  <option>4</option>
+							  <option>5</option>
+							</select>
+						  </div>
+						  
+						  
+						  <button type="submit" class="btn btn-default">提交</button>
+						</form>
+						  </div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        <h4 class="modal-title" id="myModalLabel">添加用户</h4>
+		      </div>
+		      <div class="modal-body">
+		        <form role="form">
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">用户名</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="用户名">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">用户密码</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入用户密码">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">确认用户密码</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请确认输入用户密码">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">请输入用户邮箱</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入用户邮箱">
+				  </div>
+				  <div class="form-group">
+						    <label for="exampleInputPassword1">所限用户组</label>
+						   <select class="form-control">
+							  <option>限制会员</option>
+							  <option>2</option>
+							  <option>3</option>
+							  <option>4</option>
+							  <option>5</option>
+							</select>
+						  </div>
+				  
+				</form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+		        <button type="button" class="btn btn-primary">提交</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</body>
+
+</html>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>

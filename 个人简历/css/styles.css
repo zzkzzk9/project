@@ -1,0 +1,46 @@
+/*
+ * intense-image-viewer
+ *
+ * MIT licensed
+ * Copyright (C) 2013 Tim Holman, http://tholman.com
+ */
+/*********************************************
+ * www.lanrentuku.com
+ *********************************************/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+
+
+.demos {
+  text-align: center;
+  margin-top: 20px; }
+
+.demo-image {
+  cursor: url("../images/plus_cursor.png") 25 25, pointer;
+  display: inline-block;
+  width: 290px;
+  height: 290px;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px; }
+  .demo-image.first {
+    background-image: url("../images/h1_small.png");
+    margin-bottom: 30px; }
+  .demo-image.second {
+    background-position: 50% 10%;
+    background-image: url("../images/h2_small.png");  margin-bottom: 30px; }
+  .demo-image.third {
+    background-image: url("../images/h3_small.png");  margin-bottom: 30px; }
+ .demo-image.four {
+    background-image: url("../images/h4_small.png"); }
+  .demo-image.five {
+    background-position: 50% 10%;
+    background-image: url("../images/h5_small.png"); }
+  .demo-image.six {
+    background-image: url("../images/h6_small.png"); }
+

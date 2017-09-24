@@ -1,0 +1,162 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dd,dl,textarea,option,select,input{margin:0;padding:0;}
+a{text-decoration:none;}
+ul{list-style:none;}
+img,input{border:none;}
+body{font-family:arial,"Microsoft YaHei","宋体";}
+i{font-style: initial;}
+a{color:#666;font-family: consolas;}
+.clearfix:after{content:'.';display: block;visibility: hidden;height:0;clear:both;}
+
+.header{width: 100%;border-bottom:2px solid #b1191a;}
+.header .top{width:100%;height:30px;background:#f1f1f1;}
+.inner{width:1210px;margin:0 auto;}
+.header .top .inner .diqu{float:left;color:#666;font-size:12px;height:30px;line-height:30px;}
+.header .top .inner ul{float:right;}
+.header .top .inner li{float:left;height:30px;line-height:30px;}
+.header .top .inner ul a{color:#666;padding:0 10px;font-size:12px;vertical-align: top;display: inline-block;font-family: '宋体';font-family: consolas;}
+.header .top .inner ul .line{height:12px;width:1px;background:#ddd;margin-top:9px;}
+.header .top .inner i{font-size:15px;line-height: 2px;overflow:hidden;padding-left:9px;height:5px;width:9px;display: inline-block;}
+.header .top .inner ul span{width:11px;height:16px;background:url(../images/jd2015img.png) no-repeat -2px -2px;display: inline-block;margin:7px 5px 0 2px;float:left;}
+.header .top .inner ul li:hover a{color:#c81623;}
+.header .top .inner ul li:hover .active{background:#fff;}
+.header .top .inner ul li:hover span{background-position: -2px -27px;}
+.header .top .inner ul .text1{padding-right:0px;font-size:13px;}
+.header .top .inner ul .text2{padding:0 13px 0 6px;color:#c81623;font-size:13px;}
+.mid .logo{width:270px;height:60px;padding:20px 92px 0 0;float:left;}
+
+.mid .form{float:left;padding-top:25px;}
+.mid form .left{width:449px;height:32px;border: 2px solid #b61d1d;line-height:32px;padding-left:5px;color:#666;font-size:15px;float:left;outline: none;}
+.mid form .right{width:80px;height:36px;background:#b61d1d;color:#fff;float:left;outline: none;}
+.mid .liping{height:28px;line-height:28px;font-size:12px;font-family: '宋体';width:538px;overflow: hidden;}
+.mid .liping a{float:left;padding-right:11px;}
+.mid .liping a:hover{color:#b61d1d;}
+.mid .liping .active{color:#b61d1d;}
+.mid .gouwu{float:right;width:139px;height:34px;border:1px solid #dfdfdf;background:#f9f9f9 url(../images/jd2015img.png) no-repeat 18px -49px;line-height:34px;font-size: 12px;margin:24px 65px 0 0;font-family: '宋体';font-family: consolas;position: relative;}
+.mid .gouwu a{margin-left:44px;}
+.mid .gouwu a:hover{color:#b61d1d;}
+.mid .gouwu i{float:right;padding-right:11px;}
+.mid .gouwu .number{height:14px;background:#c81623;color:#fff;text-align: center;font-size: 12px;line-height:14px;border-radius: 6px 6px 6px 0;position: absolute;top:-4px;left:104px;}
+.nav .list{height:44px;width:200px;background: #b1191a;color:#fff;padding-left:10px;line-height:44px;font-size:15px;float:left;}
+.nav ul{float:left;}
+.nav li{float:left;padding:0 20px;height:44px;line-height:44px;font-size:16px;}
+.nav a{color:#333;}
+.nav a:hover{color:#b61d1d;}
+
+
+
+.main{height:535px;background: #f2f2f2;}
+.main .p1{height:45px;line-height: 45px;font-size: 12px;color: #666;margin: 0 auto;width: 1210px;font-family: consolas;}
+.main .p1 span{font-size: 20px;font-weight: bold;}
+.main .m_left{width: 360px;float: left;}
+.main_inner{width: 1210px;margin: 0 auto;background: #fff;height:490px;}
+.main_inner .ul1 img{height:360px;width: 360px;}
+.main_inner .ul1{position: relative;}
+.main_inner .ul1 a{display: block;}
+.main_inner .ul1 .ac{display: none;}
+.main_inner .ul1 span{height:200px;width:200px;position: absolute;top: 0;left: 0;background: rgba(0,0,0,.3);cursor: move;}
+.main_inner .ul2 li{float: left;margin: 0 5px;border: 2px solid #fff;cursor: pointer;}
+.main_inner .ul2 .ac{border: 2px solid #a75154;}
+.main_inner .ul2 .li{margin-left: 36px;}
+.main_inner .ul2 li img{height:50px;width: 50px;}
+.main_inner .big_pic{position: relative;}
+
+.main_inner .ul3{position: absolute;right: -472px;top: -15px;height:444px;width: 444px;overflow: hidden;z-index: 5;display: none;}
+.main_inner .ul3 li{position: relative;}
+.main_inner .ul3 img{position: absolute;}
+.main_inner .ul3 .ac{display: none;}
+.main .m_left .p2{font-size: 12px;color: #666;margin: 26px 23px 18px 33px;}
+.main .m_left .p2 span{float: right;}
+.main .m_left .p2 span .i1{background: url(../baby/images/京东详情页_03.jpg) no-repeat;width: 23px;padding:0 10px 0 17px;}
+.main .m_left .p2 span .i2{background: url(../baby/images/京东详情页_05.jpg) no-repeat;width: 47px;padding-left: 18px;}
+.main .m_mid{float: left;width: 605px;}
+.main .m_mid .m_mid_top .h2{margin-top: 18px;}
+.main .m_mid .m_mid_top h2{font-size: 16px;font-weight: normal;padding-left: 26px;color: #636365;margin-bottom: 9px;}
+.main .m_mid .m_mid_top p{height:12px;font-size: 12px;color: #db8274;padding:0 0 23px 26px;}
+
+.main .m_mid dl dt{line-height: 35px;font-size: 12px;color: #666;padding-left: 30px;}
+.main .m_mid dl dt .i1{font-size: 24px;color: #df3650;}
+.main .m_mid dl dt span{height:34px;width: 86px;border-left:1px solid #e6e6e6 ;text-align: center;float: right;line-height: 18px;}
+.main .m_mid dl dt span .i2{color: #2e6ca7;}
+.main .m_mid dl .dd1{height:23px;line-height: 23px;margin: 22px 0 16px 30px;font-size: 12px;color: #666;position: relative;}
+.main .m_mid dl .dd1 .i1{font-size: 18px;color: #686472;}
+.main .m_mid dl .dd1 .xiala{font-size: 12px;color: #666;line-height: 23px;width: 114px;height: 23px;display:inline-block;border: 1px solid #ccc;padding:0 4px;float: left;border-right: none ;outline: none;}
+.main .m_mid dl .dd1 .input span{height:23px;width: 18px;background: url(../baby/images/京东详情页-恢复的_03.jpg) no-repeat 5px 9px;cursor: pointer;float: left;border: 1px solid #ccc;border-left: none ;}
+.main .m_mid dl .dd1 .input{width: 143px;height:25px;display: inline-block;position: relative;top: 5px;}
+.main .m_mid dl .dd1 ul{width: 132px;position: absolute;top: 30px;left: 50px;display: none;}
+.main .m_mid dl .dd1 ul li{background: #fff;text-align: center;}
+
+.main .m_mid dl .dd2{height:12px;font-size: 12px;color: #666;margin: 0 0 14px 30px;}
+.main .m_mid dl .dd2 i{color: #b34f4d;}
+.main .m_mid dl .dd3{font-size: 12px;color: #666;padding-top: 17px;line-height: 24px;border-top:1px dashed #ddd ;margin-left: 18px;padding-left: 12px;}
+.main .m_mid dl .dd3 p{float: left;}
+.main .m_mid dl .dd3 .dd3_a{height:110px;float: left;width: 500px;}
+.main .m_mid dl .dd3 .dd3_a a{height:26px;padding: 0 6px;line-height: 26px;border: 1px solid #d3d3d3;display: inline-block;cursor: pointer;}
+.main .m_mid dl .dd3 .dd3_a .ab .ac{border: 1px solid #a75255;background: url(../baby/images/京东详情页6666_03.jpg) no-repeat right bottom;}
+.main .m_mid dl .dd3 .dd3_a .ab{border: 1px solid #a75255;}
+.main .m_mid .dd3 .dd3_a .border{border: 1px solid #fff;float: left;margin: 0 8px 4px 0;}
+.main .m_mid .shopping{height:36px;margin: 20px 0 0 28px;width: 196px;}
+.main .m_mid .shopping .add{height:34px;width:50px;border: 1px solid #c4c4c4;float: left;}
+.main .m_mid .shopping .add span{height:34px;width:16px;float: left;}
+.main .m_mid .shopping .add textarea{height:34px;width:33px;border:none;float: left;outline: none;resize:none;text-align: center;line-height: 34px;}
+.main .m_mid .shopping .add span div{height:16px;width:16px;outline: none;border: none;display: block;background: #fff; text-align: center;line-height: 17px;cursor: pointer;}
+.main .m_mid .shopping .add span .btn1{border-bottom: 1px solid #ccc;border-left:1px solid #ccc ;}
+.main .m_mid .shopping .add span .btn2{border-left:1px solid #ccc ;}
+.main .m_mid .shopping p{height:35px;width: 99px;background: #ea4146 url(../baby/images/京东详情页1_03.jpg) no-repeat 9px 11px;float: right;color: #fff;padding-left: 36px;line-height: 35px;font-size: 14px;cursor: pointer;}
+.main .m_mid .p1{height:12px;padding-left: 30px;font-size: 12px;color: #686868;}
+.main .m_right{float: left;width: 220px;padding-left: 24px;}
+.main .m_right .pic{background: url(../baby/images/京东详情页_08_03.jpg) no-repeat 59px 12px;height:80px;width: 195px;border-bottom: 1px solid #efefef;border-top: 1px solid #efefef;margin-top:20px ;}
+.main .m_right h2{height: 52px;line-height: 52px;font-size: 12px;color: #0b5c9d;padding-left:31px ;}
+.main .m_right h2 i{height:18px;width: 54px;background: #e13241;color: #fff;text-align: center;line-height: 18px;font-size: 12px;display: inline-block;}
+.main .m_right .jimi{height:84px;width: 200px;padding-left: 25px;}
+.main .m_right .jimi a{margin: 0 7px 12px 0;font-size: 12px;color: #606060;display: inline-block;height:28px;border: 1px solid #c6c6c6;line-height: 28px;}
+.main .m_right .jimi .a1{padding:0 6px 0 26px;background: url(../baby/images/京东详情页_10.jpg) no-repeat 4px 6px;}
+.main .m_right .jimi .a2{background: url(../baby/images/京东详情页_07.jpg) no-repeat 10px 4px;padding:0 6px 0 32px;}
+.main .m_right .jimi .a3{background: url(../baby/images/京东详情页_15.jpg) no-repeat 10px 4px;padding:0 11px 0 32px;}
+.main .m_right .jimi .a4{background: url(../baby/images/京东详情页_17.jpg) no-repeat 10px 6px;padding:0 11px 0 32px;}
+.main .m_right p{padding-left: 32px;height: 36px;line-height: 36px;font-size:14px ;color: #616161;}
+.main .m_right .span1{margin-left: 31px;height:16px;padding-left: 20px;width: 40px;background: url(../baby/images/京东详情页_21.jpg) no-repeat;font-size: 12px;color: #827bae;display: inline-block;}
+.main .m_right .span2{margin-left: 38px;height:16px;padding-left: 20px;width: 40px;background: url(../baby/images/京东详情页_24.jpg) no-repeat;font-size: 12px;color: #827bae;display: inline-block;}
+.showlist{height:266px;width: 1210px;margin: 0 auto;}
+.showlist .top{height:29px;width: 1208px;border: 1px solid #ddd;border-top:2px solid #99999b ;}
+.showlist .top li{float: left;height:29px;width: 85px;font-size: 12px;color: #5f6160;text-align: center;line-height: 29px;position: relative;cursor: pointer;}
+.showlist .top .ac .span1{width: 84px;height:33px;border: 1px solid #ddd;border-bottom: 1px solid #fff;border-top:2px solid #a75353 ;background: #fff;position: absolute;top:-6px;left: -1px;text-align: center;line-height: 33px;display: block;color: #ca444d;}
+.showlist .top li span{display: none;}
+.showlist .box1{height:234px;border: 1px solid #ddd;border-top: none;}
+.showlist .box1 li{float: left;width: 200px;text-align: center;font-size: 12px;}
+.showlist .box1 li p{width: 137px;color: #606060;margin: auto;}
+.showlist .box1 li span{color: #d15357;}
+.showlist .box2{display: none;}
+
+.footer{border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;height:310px;padding-top:6px;}
+.footer ul{height:122px;} 
+.footer ul li{height:44px;width:302px;margin:39px 0;float:left;}
+.footer .li1{background: url(../images/nva_bg.png) no-repeat -4px -135px;}
+.footer .li2{background: url(../images/nva_bg.png) no-repeat -4px -199px;}
+.footer .li3{background: url(../images/nva_bg.png) no-repeat -4px -263px;}
+.footer .li4{background: url(../images/nva_bg.png) no-repeat -4px -327px;}
+
+.footer dl{width:199px;float:left;}
+.footer a:hover{color:#B61D1D;}
+.footer dt{font-size:16px;color:#5f5f5f;height:36px;line-height:36px;}
+.footer dd a{font-size:12px;color:#666;height:20px;line-height:20px;}
+.footer .dl1{width:186px;}
+.footer .dl2{width:212px;float:left;}
+.footer .dl2 dt{font-size: 19px;;}
+.footer p{font-size:12px;color:#666;line-height:18px;}
+.footer .dl2 a{float: right;}
+.footer_top{text-align: center;}
+.footer_top .ul1{padding:24px 0 0 12px;display: inline-block;}
+.footer_top .ul1 li{float: left;height:12px;}
+.footer_top .ul1 li a{color:#666;font-size:12px;}
+.footer_top .ul1 li span{padding:0 12px;}
+.footer_top p{line-height:20px;font-size:12px;}
+.footer_top .ul2{display: inline-block;}
+.footer_top .ul2 li{float:left;padding:8px 12px 0 0;}
+.footer_top .ul2 li a{display: block;height:32px;width:103px;}
+.footer_top .ul2 .li1 a{background: url(../images/54b8871eNa9a7067e.png) no-repeat;}
+.footer_top .ul2 .li2 a{background: url(../images/54b8872dNe37a9860.png) no-repeat;}
+.footer_top .ul2 .li3 a{background: url(../images/54b8875fNad1e0c4c.png) no-repeat;}
+.footer_top .ul2 .li4 a{background: url(../images/56a89b8fNfbaade9a.jpg) no-repeat;}
+.footer_top .ul2 .li5 a{background: url(../images/5698dc03N23f2e3b8.jpg) no-repeat;}
+.footer_top .ul2 .li6 a{background: url(../images/5698dc16Nb2ab99df.jpg) no-repeat;}
+.footer_top .ul1 a:hover{color:#B61D1D;}
